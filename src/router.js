@@ -33,9 +33,6 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   const isPublic = to.matched.some(record => record.meta.public);
-  const onlyWhenLoggedOut = to.matched.some(
-    record => record.meta.onlyWhenLoggedOut
-  );
   const loggedIn = !!TokenService.getToken();
   if (!isPublic && !loggedIn) {
     return next({
@@ -43,7 +40,7 @@ router.beforeEach((to, from, next) => {
       query: { redirect: to.fullPath }
     });
   }
-  if (loggedIn && onlyWhenLoggedOut) {
+  if (loggedIn) {
     return next("/");
   }
   next();

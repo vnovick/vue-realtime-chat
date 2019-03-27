@@ -5,16 +5,19 @@
           <div class="hasura-logo">
             <img src="https://graphql-engine-cdn.hasura.io/img/powered_by_hasura_black.svg" @click="windowOpen" alt="Powered by Hasura"/>
             &nbsp; | &nbsp;
-            <a href="/console" target="_blank" rel="noopener noreferrer">
+            <a href="https://realtime-chat.demo.hasura.app/console" target="_blank" rel="noopener noreferrer">
               Backend
             </a>
             &nbsp; | &nbsp;
-            <a href="https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-chat" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-chat-vue" target="_blank" rel="noopener noreferrer">
               Source
             </a>
             &nbsp; | &nbsp;
-            <a href="https://blog.hasura.io/building-a-realtime-chat-app-with-graphql-subscriptions-d68cd33e73f" target="_blank" rel="noopener noreferrer">
+            <a href="https://dev.to/hasurahq/realtime-chat-app-with-vue-and-hasura-57db" target="_blank" rel="noopener noreferrer">
               Blogpost
+            </a>
+            <a href="https://dev.to/hasurahq/vue-and-graphql-with-hasura-video-course-3mpp" target="_blank" rel="noopener noreferrer">
+              Vue and GraphQL course
             </a>
           </div>
           <div class="footer-small-text"><span>(The database resets every 24 hours)</span></div>

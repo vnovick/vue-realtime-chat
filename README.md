@@ -1,30 +1,10 @@
-# chat-app
+# Realtime Chat using GraphQL Subscriptions
 
-## Project setup
-```
-yarn install
-```
+This is the source code for a fully working group chat app that uses subscriptions in Hasura GraphQL Engine. It is built using Vue and Apollo.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+- [Fully working app]()
+- [Backend](https://realtime-chat.demo.hasura.app/console)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+For a tutorial how to do that check out this [blog post](https://dev.to/hasurahq/realtime-chat-app-with-vue-and-hasura-57db)
+For Vue and GraphQL course check out these [video series](https://dev.to/hasurahq/vue-and-graphql-with-hasura-video-course-3mpp)
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# vue-realtime-chat
